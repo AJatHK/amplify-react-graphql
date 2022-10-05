@@ -1,0 +1,14 @@
+{
+  "resourceName": "staticFilesBucket",
+  "policyUUID": "534a20e3",
+  "bucketName": "amplifyreactgraphqlb18a82273cf24090815797d5a103",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
