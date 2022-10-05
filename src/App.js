@@ -71,6 +71,7 @@ const App = ({ signOut }) => {
   return (
     <View className="App">
       <Heading level={1}>My Notes App</Heading>
+      <Button onClick={signOut}>Sign Out</Button>
       <View as="form" margin="3rem 0" onSubmit={createNote}>
         <Flex direction="column" justifyContent="center">
           <TextField
@@ -93,7 +94,7 @@ const App = ({ signOut }) => {
             name="image"
             as="input"
             type="file"
-            style={{ alignSelf: "end" }}
+            style={{ alignSelf: "center" }}
           />
           <Button type="submit" variation="primary">
             <div className="buttonLarge">Create Note</div>
@@ -121,13 +122,12 @@ const App = ({ signOut }) => {
               />
             )}
             <Button variation="link" onClick={() => deleteNote(note)}>
-              Delete note
+              <div className="buttonLarge">Delete Note</div>
             </Button>
             <hr className="hrWidth50"></hr>
           </Flex>
         ))}
       </View>
-      <Button onClick={signOut}>Sign Out</Button>
     </View>
   );
 };
