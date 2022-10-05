@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+.buttonLarge {
+  font-size: 1.5em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+}
+
+.hrWidth50 {
+  width: 50%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
